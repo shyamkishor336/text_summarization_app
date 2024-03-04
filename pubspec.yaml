@@ -1,0 +1,39 @@
+name: text_summarize
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^5.4.0
+  file_picker: ^6.1.1
+  flutter_easyloading: ^3.0.5
+  image_picker: ^0.8.9
+  sizer: ^2.0.15
+  styled_widget: ^0.4.1
+  url_launcher: ^6.2.5
+  http: ^1.2.1
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.1.0
+  google_mlkit_text_recognition: ^0.11.0
+  mime: ^1.0.5
+  http_parser: ^4.0.2
+  google_fonts: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/image/
